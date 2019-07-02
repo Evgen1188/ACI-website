@@ -1,0 +1,99 @@
+h1, h2, p{
+    font-family: Lato;
+    font-style: normal;
+    line-height: 140%;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 120%;
+
+}
+
+p{
+    font-family: Open Sans;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.81px;
+}
+
+/****** PAGE 1 ******/
+#page1{
+    height: 100vh;
+    background-image: url("../image/mountain.svg") ;
+}
+.px-7{
+    padding-left: 4vw;!important;
+    padding-right: 4vw;!important;
+}
+.mr-10{
+    margin-right: 10vw;
+}
+.maintenance{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+}
+.h1-page1{
+    font-family: Open Sans;
+    font-weight: 600;
+    font-size: 48px;
+    letter-spacing: 0.81px;
+    color: #FFFFFF;
+}
+.h3-page1{
+    font-family: Open Sans;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 0.81px;
+    color: #FFFFFF;
+}
+.btn-page1{
+    border: 1px solid rgba(0, 0, 0, 0.07);
+    background: #ffffff;
+    width: 159px;
+    height: 44px;
+}
+.bottom-footer{
+    background: black;
+    width: 100%;
+    bottom: 0;
+    position:absolute;
+}
+.border-footer{
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 1vh;
+}
+.text-footer{
+    color: #ffffff;
+}
+.icons{
+
+
+}
+/****** PAGE 2 ******/
+.content-page2 {
+    border: 1px solid rgba(0, 0, 0, 0.07);
+}
+.mx-10 {
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.h2-page2{
+    line-height: 140%;
+}
+
+.btn-page2{
+    border: 1px solid rgba(0, 0, 0, 0.07);
+    background: #ffffff;
+    width: 300px;
+    height: 44px;
+}

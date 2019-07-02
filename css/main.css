@@ -82,15 +82,19 @@ a:hover {
 }
 .btn-page1{
     border: 1px solid rgba(0, 0, 0, 0.07);
-    background: #ffffff;
+    background-color:#ffffff;
     width: 159px;
     height: 44px;
+    border-radius: unset;
 }
 .bottom-footer{
     background: black;
-    width: 100%;
     bottom: 0;
     position:absolute;
+    width: 100%;
+}
+.footer-page1{
+    margin-right: 0;!important;
 }
 .border-footer{
     border-right: 1px solid rgba(255, 255, 255, 0.1);
@@ -114,9 +118,9 @@ a:hover {
 .content-page2 {
     border: 1px solid rgba(0, 0, 0, 0.07);
 }
-.mx-10 {
-    margin-left: 10vw;
-    margin-right: 10vw;
+.mx-9 {
+    margin-left: 9vw;
+    margin-right: 9vw;
 }
 
 .h2-page2{
@@ -128,4 +132,12 @@ a:hover {
     background: #ffffff;
     width: 300px;
     height: 44px;
+    border-radius: unset;
+
 }
+
+/*DEBUG*/
+
+/** {*/
+/*border: 1px solid red;*/
+/*}*/

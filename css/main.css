@@ -175,6 +175,47 @@ a:hover {
 .content-page3{
     margin-left: 29px;
 }
+
+/****** PAGE 5 ******/
+
+.rectangle {
+    width: 100%;
+    height: auto;
+}
+
+.data-page5{
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 180%;
+    letter-spacing: 0.03em;
+    color: rgba(0, 0, 0, 0.54);
+    margin-top: -10px;
+}
+
+.btn-page5{
+    border: 1px solid rgba(0, 0, 0, 0.07);
+    background: #ffffff;
+    width: 56px;
+    height: 36px;
+    border-radius: unset;
+}
+.btns-page5{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.btn-page5-left{
+}
+.arrows{
+    margin-top: -3px;
+}
+
+.facebook{
+    margin-top: -3px;
+    margin-right: 3px;
+}
+
+
 /*DEBUG*/
 
 /** {*/

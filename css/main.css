@@ -34,7 +34,7 @@ p, li{
     font-family: Open Sans;
     font-weight: normal;
     font-size: 16px;
-    letter-spacing: 0.81px;
+    letter-spacing: 1px;
     line-height: 140%;
     color: rgba(0, 0, 0, 0.76);
 }
@@ -180,12 +180,14 @@ a:hover {
     margin-left: 29px;
 }
 
-
+.h3-page3{
+    opacity: 0;
+}
 
 
 /****** PAGE 4 ******/
 .carousel-item{
-    height: 200px;
+    height: 150px;
 }
 .carousel-inner img {
     height: 100%;
@@ -203,6 +205,16 @@ a:hover {
     transition-duration: .3s;
     opacity: 1;
 }
+
+.carousel-control-next-icon{
+    background-image: url("../image/icons8_left.png");
+}
+.carousel-control-prev-icon{
+    background-image: url("../image/icons-col-left.png");
+
+}
+
+
 /****** PAGE 5 ******/
 
 .rectangle {
@@ -242,7 +254,63 @@ a:hover {
     margin-right: 3px;
 }
 
-.arrows:hover{
+.a-page5:active {
+    color: unset;
+}
+
+.a-page5:visited {
+    color: unset;
+}
+
+.a-page5:hover {
+    color: unset;
+}
+/****** PAGE 7 ******/
+
+.bord-bottom-white{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+#page7{
+    height: 93vh;
+    background: #212121;
+}
+
+.h4-page7{
+    width: 80%;
+    color: #ffffff;
+
+}
+
+.ul-page7{
+    list-style-type:none;
+    padding-left: 0;
+}
+.a-page7:active {
+    color: rgba(255, 255, 255, 0.76);
+    text-decoration:none
+}
+
+.a-page7:visited {
+    color: rgba(255, 255, 255, 0.76);
+    text-decoration:none
+}
+
+.a-page7:hover {
+    color: rgba(255, 255, 255, 0.76);
+    text-decoration: underline
+}
+
+.footer-page7{
+    background: rgba(33, 36, 33, 0.9);;
+
+}
+.footer-page7-text{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 220%;
+    color: #ffffff;
+    letter-spacing: 1px;
+
 
 }
 /*DEBUG*/

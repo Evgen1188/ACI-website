@@ -192,7 +192,17 @@ a:hover {
     width: auto;
 }
 
-
+.logo-img{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    opacity: 0.3;
+}
+.logo-img:hover{
+    -webkit-filter: none;
+    filter: none;
+    transition-duration: .3s;
+    opacity: 1;
+}
 /****** PAGE 5 ******/
 
 .rectangle {
@@ -232,7 +242,9 @@ a:hover {
     margin-right: 3px;
 }
 
+.arrows:hover{
 
+}
 /*DEBUG*/
 
 /** {*/

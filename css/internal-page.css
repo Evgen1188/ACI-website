@@ -1,0 +1,47 @@
+#page-1-int{
+    background: url("../image/back-int.svg") no-repeat bottom  ;
+    background-size: 100%;
+}
+.border-int{
+    border: 1px solid rgba(255, 255, 255, 0.32);!important;
+}
+.nav-int{
+    background: #353535;
+}
+.m-4_5{
+    margin: 2.2rem
+}
+.logo-img-internal{
+    width: 65px;
+    height: auto;
+    margin-top: -10px;
+}
+.py-2_5{
+    padding-bottom: 0.7rem !important;
+    padding-top: 0.7rem !important;
+}
+.contacts{
+    width: 100%;
+}
+
+.p-int{
+    color: #000000;
+}
+
+.h-3-int{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.btn-lire{
+    width: 100%;
+    border-radius: unset;
+    border: 1px solid rgba(0, 0, 0, 0.32);
+}
+
+
+.text-int{
+    background: #ffffff;
+
+}

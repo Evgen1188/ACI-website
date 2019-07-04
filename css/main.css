@@ -21,14 +21,14 @@ h2{
 
 h3{
     font-weight: 800;
-    letter-spacing: 0.81px;
+    letter-spacing: 1px;
     color: rgba(0, 0, 0, 0.76);
 
 }
 
 h4{
     font-weight: 600;
-    letter-spacing: 0.81px;
+    letter-spacing: 1px;
 }
 p, li{
     font-family: Open Sans;
@@ -74,6 +74,26 @@ a:hover {
     border-bottom: 1px solid rgba(0, 0, 0, 0.07);
 
 }
+
+#coll{
+    background: rgba(0, 0, 0, 0.9);
+    opacity: 99%;
+    min-height: 100%;
+    position: absolute;
+    z-index: 1001;
+    margin-top: -100%;
+}
+#logo{
+    opacity: 1;
+}
+.collaps-open{
+    transition-duration: .3s;
+    margin-top: 0;!important;
+}
+#collapse-close{
+    opacity: 0.95;
+}
+
 /****** PAGE 1 ******/
 #page1{
     min-height: 100%;

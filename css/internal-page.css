@@ -46,35 +46,3 @@
 
 }
 
-@media (max-height: 879px) {
-    .h4-page7{
-        font-size: 20px;
-    }
-    .ul-page7{
-        margin-bottom: 0;
-
-    }
-    .a-page7{
-        font-size: 14px;!important;
-    }
-    .mx-sm-9{
-        margin-left: 3vw;
-        margin-right: 3vw;
-    }
-    .nav-des{
-        display: none;
-    }
-    .nav-mob{
-        display: unset;
-    }
-}
-@media (min-height: 879px) {
-
-    .nav-des {
-        display: unset;
-    }
-
-    .nav-mob {
-        display: none;
-    }
-}

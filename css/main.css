@@ -1,6 +1,9 @@
 body, html {
     width: 100%;
     height: 100%;
+    font-family: Open Sans;
+    letter-spacing: 1px;
+
 }
 
 h1, h2, h3 h4 p{
@@ -21,26 +24,26 @@ h2{
 
 h3{
     font-weight: 800;
-    letter-spacing: 1px;
     color: rgba(0, 0, 0, 0.76);
 
 }
 
 h4{
     font-weight: 600;
-    letter-spacing: 1px;
 }
 p{
-    font-family: Open Sans;
     font-weight: normal;
     font-size: 16px;
-    letter-spacing: 1px;
     line-height: 140%;
     color: rgba(0, 0, 0, 0.76);
 }
 
 li{
     margin-bottom: 10px;
+}
+a:link{
+    color:#000000;
+    text-decoration:none
 }
 
 a:active {
@@ -121,7 +124,6 @@ a:hover {
     color: #FFFFFF;
 }
 .li-mob-mav-main{
-    font-family: Open Sans;
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
@@ -131,11 +133,30 @@ a:hover {
 .cross-mob{
     margin-left: 80vw;
 }
+
+.a-nav:link {
+    color: #FFFFFF;
+    text-decoration:none
+}
+.a-nav:active {
+    color: #FFFFFF;
+    text-decoration:none
+}
+
+.a-nav:visited {
+    color: #FFFFFF;
+    text-decoration:none
+}
+
+.a-nav:hover {
+    color: #FFFFFF;
+    text-decoration: underline
+}
 /****** PAGE 1 ******/
 #page1{
-    min-height: 100%;
-    background: url("../image/main-mountain.jpg") no-repeat  center center  ;
-    background-size: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.76) 0%, rgba(255, 255, 255, 0) 100%),  url("../image/main-mountain.jpg") no-repeat  center center  ;
+    background-size: cover;
 
 }
 .px-7{
@@ -147,8 +168,6 @@ a:hover {
 }
 .maintenance{
     border: 1px solid rgba(255, 255, 255, 0.1);
-
-    font-family: Open Sans;
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
@@ -159,14 +178,12 @@ a:hover {
     font-family: Open Sans;
     font-weight: 600;
     font-size: 48px;
-    letter-spacing: 0.81px;
     color: #FFFFFF;
 }
 .h3-page1{
     font-family: Open Sans;
     font-weight: 600;
     font-size: 18px;
-    letter-spacing: 0.81px;
     color: #FFFFFF;
 }
 .btn-page1{
@@ -194,13 +211,7 @@ a:hover {
 }
 .icon-padding{
     padding-top: 1vh;
-
-
 }
-
-
-
-
 
 
 /****** PAGE 2 ******/
@@ -238,6 +249,7 @@ a:hover {
 }
 .content-page3{
     margin-left: 29px;
+    padding-left: 5px;
 }
 
 .h3-page3{
@@ -247,8 +259,7 @@ a:hover {
 
 /****** PAGE 4 ******/
 .carousel-item{
-    height: 150px;
-}
+    height: 260px;}
 .carousel-inner img {
     height: 100%;
     width: auto;
@@ -306,14 +317,23 @@ a:hover {
 .btn-page5-left{
 }
 .arrows{
-    margin-top: -3px;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    padding-left: 30%;
+    padding-right: 50%;
 }
+.arrows:hover{
 
+    filter: invert(1);
+    transition-duration: .2s;
+}
 .facebook{
     margin-top: -3px;
     margin-right: 3px;
 }
-
+.a-page5a:link{
+    color: unset
+}
 .a-page5:active {
     color: unset;
 }
@@ -331,7 +351,6 @@ a:hover {
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 #page7{
-    height: 93vh;
     background: #212121;
 }
 
@@ -344,6 +363,10 @@ a:hover {
 .ul-page7{
     list-style-type:none;
     padding-left: 0;
+}
+.a-page7:link {
+    color: rgba(255, 255, 255, 0.76);
+    text-decoration:none
 }
 .a-page7:active {
     color: rgba(255, 255, 255, 0.76);
@@ -369,7 +392,6 @@ a:hover {
     font-size: 12px;
     line-height: 220%;
     color: #ffffff;
-    letter-spacing: 1px;
 }
 
 
@@ -383,10 +405,11 @@ a:hover {
     .h3-page3{
         display: none;
     }
-    .bord-bottom-xl{
-        border-bottom: 1px solid rgba(0, 0, 0, 0.07);
-
+    .border-footer{
+        border: unset;
+        padding-top: 0;
     }
+
 }
 @media (max-height: 879px) {
     .h4-page7{
@@ -403,6 +426,59 @@ a:hover {
         margin-left: 3vw;
         margin-right: 3vw;
     }
+
+}
+
+@media (max-width: 600px) {
+    p, li{
+        font-size: 14px;
+    }
+    .bord, .bord-right, .content-page2, .mx-9{
+        border: unset;
+        margin-left: unset;
+        margin-right: unset;
+    }
+    .h1-page1{
+        font-size: 30px;
+    }
+    .h3-page1{
+        font-size: 16px;
+    }
+    .bord-top{
+        border-top: unset;
+    }
+    .page4-des{
+        display: none;
+    }
+    .bord-bottom-sm{
+        border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+
+    }
+    .text-footer{
+        padding-top: 0;!important;
+        padding-bottom: 0;!important;
+    }
+    .content-page3{
+        margin-left: 0;
+    }
+    .text-footer{
+        font-size: 14px;
+    }
+    .icons-page3{
+        margin-right: 5px;
+    }
+}
+@media (min-width: 600px ) {
+    .page4-mob{
+        display: none;
+    }
+}
+@media (max-width: 380px) {
+    .carousel-item{
+        height: 150px;}
+}
+@media  (max-width: 1000px) {
+
     .nav-des{
         display: none;
     }
@@ -410,7 +486,7 @@ a:hover {
         display: unset;
     }
 }
-@media (min-height: 879px) {
+@media  (min-width: 1000px) {
 
     .nav-des{
         display: unset;
@@ -419,6 +495,13 @@ a:hover {
         display: none;
     }
 }
+@media (min-width: 1440px) {
+    #page1{
+        background-size: 100%;
+    }
+}
+
+
 /*DEBUG*/
 
 /** {*/

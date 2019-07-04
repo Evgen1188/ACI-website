@@ -30,7 +30,7 @@ h4{
     font-weight: 600;
     letter-spacing: 1px;
 }
-p, li{
+p{
     font-family: Open Sans;
     font-weight: normal;
     font-size: 16px;
@@ -74,7 +74,7 @@ a:hover {
     border-bottom: 1px solid rgba(0, 0, 0, 0.07);
 
 }
-
+/********** NAV **********/
 #coll{
     background: rgba(0, 0, 0, 0.9);
     opacity: 99%;
@@ -86,14 +86,51 @@ a:hover {
 #logo{
     opacity: 1;
 }
-.collaps-open{
-    transition-duration: .3s;
-    margin-top: 0;!important;
-}
+
 #collapse-close{
     opacity: 0.95;
 }
 
+#main-coll-mob{
+    background: rgba(0, 0, 0, 0.9);
+    opacity: 99%;
+    min-height: 100%;
+    position: absolute;
+    z-index: 1001;
+    margin-left: -100%;
+}
+.nav-section{
+    min-height: 100%;
+    position: absolute;
+    z-index: 1001;
+    margin-left: -100%
+}
+
+.btn-lire-nav{
+    border: 1px solid #ffffff;
+    border-radius: unset;
+        color: #FFFFFF;
+
+
+}
+
+.h4-nav{
+
+    font-family: Open Sans;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+.li-mob-mav-main{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 26px;
+    color: #FFFFFF;
+}
+.cross-mob{
+    margin-left: 80vw;
+}
 /****** PAGE 1 ******/
 #page1{
     min-height: 100%;
@@ -174,7 +211,10 @@ a:hover {
     margin-left: 9vw;
     margin-right: 9vw;
 }
-
+.mx-sm-9{
+    margin-left: 9vw;
+    margin-right: 9vw;
+}
 .h2-page2{
     line-height: 140%;
 }
@@ -330,8 +370,54 @@ a:hover {
     line-height: 220%;
     color: #ffffff;
     letter-spacing: 1px;
+}
 
 
+@media (max-width: 1199px) {
+    .btns-page5{
+        position: unset;}
+    }
+
+
+@media (max-width: 991px) {
+    .h3-page3{
+        display: none;
+    }
+    .bord-bottom-xl{
+        border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+
+    }
+}
+@media (max-height: 879px) {
+    .h4-page7{
+        font-size: 20px;
+    }
+    .ul-page7{
+        margin-bottom: 0;
+
+    }
+    .a-page7{
+        font-size: 14px;!important;
+    }
+    .mx-sm-9{
+        margin-left: 3vw;
+        margin-right: 3vw;
+    }
+    .nav-des{
+        display: none;
+    }
+    .nav-mob{
+        display: unset;
+    }
+}
+@media (min-height: 879px) {
+
+    .nav-des{
+        display: unset;
+    }
+    .nav-mob{
+        display: none;
+    }
 }
 /*DEBUG*/
 

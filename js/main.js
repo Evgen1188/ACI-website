@@ -37,7 +37,8 @@ $('#collapse-close').on('click', function(e){
     $('#collapse-open').animate({
         opacity: 1,
     });
-    $('#collapse-mob-close').animate({
+
+    $('#main-coll-mob').animate({
         marginLeft: "-100%",
     });
 });
@@ -59,6 +60,9 @@ $('#collapse-mob-close').on('click', function(e){
     });
     $('#collapse-open').animate({
         opacity: 1,
+    });
+    $('#coll').animate({
+        marginTop: "-100%",
     });
 });
 
@@ -84,6 +88,7 @@ $('#PRESENTATION-collapse-mob-close').on('click', function(e){
         opacity: 1,
 
     });
+
 
 });
 

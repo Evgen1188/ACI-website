@@ -117,7 +117,7 @@ a:hover {
 
 }
 
-.h4-nav{
+.a-main-page7{
 
     font-family: Open Sans;
     font-size: 24px;
@@ -166,13 +166,32 @@ a:hover {
 .mr-10{
     margin-right: 10vw;
 }
-.maintenance{
+.maintenance-main{
     border: 1px solid rgba(255, 255, 255, 0.1);
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
     line-height: 19px;
     letter-spacing: 0.03em;
+}
+.maintenance-main:link{
+    color:#ffffff;
+    text-decoration:none
+}
+
+.maintenance-main:active {
+    color:#ffffff;
+    text-decoration:none
+}
+
+.maintenance-main:visited {
+    color:#ffffff;
+    text-decoration:none
+}
+
+.maintenance-main:hover {
+    color:#ffffff;
+    text-decoration: underline
 }
 .h1-page1{
     font-family: Open Sans;
@@ -354,10 +373,31 @@ a:hover {
     background: #212121;
 }
 
-.h4-page7{
+.a-main-page7{
     width: 80%;
     color: #ffffff;
+    font-weight: 600;
+    font-family: Lato;
+    line-height: 120%;
+    font-size: 24px;
+}
+.a-main-page7:link {
+    color: #FFFFFF;
+    text-decoration:none
+}
+.a-main-page7:active {
+    color: #FFFFFF;
+    text-decoration:none
+}
 
+.a-main-page7:visited {
+    color: #FFFFFF;
+    text-decoration:none
+}
+
+.a-main-page7:hover {
+    color: #FFFFFF;
+    text-decoration: underline
 }
 
 .ul-page7{
@@ -412,7 +452,7 @@ a:hover {
 
 }
 @media (max-height: 879px) {
-    .h4-page7{
+    .a-main-page7{
         font-size: 20px;
     }
     .ul-page7{

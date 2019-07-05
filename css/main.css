@@ -3,7 +3,6 @@ body, html {
     height: 100%;
     font-family: Open Sans;
     letter-spacing: 1px;
-
 }
 
 h1, h2, h3 h4 p{
@@ -17,6 +16,7 @@ h1, h2, h3, h4{
 
 
 }
+
 h2{
     font-weight: bold;
 
@@ -505,7 +505,7 @@ a:hover {
     .carousel-item{
         height: 150px;}
 }
-@media  (max-width: 1000px) {
+@media (max-width: 1000px) {
 
     .nav-des{
         display: none;
@@ -514,7 +514,7 @@ a:hover {
         display: unset;
     }
 }
-@media  (min-width: 1000px) {
+@media (min-width: 1000px) {
 
     .nav-des{
         display: unset;
